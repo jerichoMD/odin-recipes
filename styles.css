@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFC470;
+    font-family: monospace;
+}
+
+.card {
+    background-color: #8B322C;
+    width: 800px;
+    margin: 16px auto;
+    padding: 8px;
+}
+
+.recipes,
+.title {
+    background-color: #4793AF;
+    margin: 8px;
+}
+
+.title {
+    padding: 16px;
+    font-size: 1.75rem;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.recipes li {
+    list-style-type: none;
+    padding: 16px;
+    font-size: 1.25rem;
+}
+
+a {
+    color: #8B322C;
+}
+
+a:hover {
+    color: #DD5746;
+}
